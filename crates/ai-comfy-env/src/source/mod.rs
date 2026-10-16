@@ -26,7 +26,7 @@ pub use install::{Consents, InstallError, Installer, Refusal};
 pub use pack::{
     PackCandidate, PackConsent, PackEntry, PackError, PackLimits, PackRefusal, PackSpec, parse_pack,
 };
-pub use registry::{Checksum, Entry, LicenceAcceptance, Registry};
+pub use registry::{Checksum, Entry, LicenceAcceptance, LicenceRecord, Registry};
 pub use resolve::Resolver;
 pub use settings::{ApiBases, HostOverride, SourceSettings};
 pub use spec::{SourceSpec, SpecError, parse};
